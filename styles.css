@@ -1,0 +1,335 @@
+header {
+    width: 100%;
+    height: 13vh;
+    background-color: black;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1;
+}
+
+
+#logo {
+    font-size: x-large;
+    color: white;
+    font-style: italic;
+    display: inline;
+margin: 0vh 15vh 0vh 15vh;
+}
+
+
+
+#tabdiv{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0vh 55vh 0vh 0vh;
+}
+.tabs {
+    color:  white;
+    display: inline;
+    font-size: smaller;
+    
+    
+    
+    
+}
+
+#shopthing{
+    color:  white;
+    display: flex;
+    justify-content: space-between;
+    width: 6%;
+}
+
+#sec1 {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+
+    background-image: url(https://www.cfact.org/wp-content/uploads/2020/12/spacex-starship-cleared-for-launch.jpg)
+    
+;
+    
+   
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+}
+
+#first1 {
+    color:  white;
+    position: absolute;
+    top: 45vh;
+    left: 10vh;
+    font-size: large;
+}
+#first2 {
+    color:  white;
+    position: absolute;
+    top: 50vh;
+    left: 10vh;
+    font-size: 45px;
+    font: bold;
+}
+
+
+#butt1{
+    
+    color: white;
+    background-color: transparent;
+    height: 8vh;
+    width: 25vh;
+    border: solid white;
+    position: absolute;
+    top: 75vh;
+    left: 10vh;
+    cursor: pointer;
+    
+}
+#sec2{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://i.insider.com/5d964b216e4298001c459da7?width=1100&format=jpeg&auto=webp);
+    
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+
+}
+
+#second1{
+    color:  white;
+    position: absolute;
+    top: 55vh;
+    left: 10vh;
+    font-size: large;
+   
+}
+
+#second2{
+    color:  white;
+    position: absolute;
+    top: 60vh;
+    left: 10vh;
+    font-size: 45px;
+    font: bold;
+}
+
+#butt2{
+    color: white;
+    background-color: transparent;
+    height: 8vh;
+    width: 25vh;
+    border: solid white;
+    position: absolute;
+    top: 72vh;
+    left: 10vh;
+    cursor: pointer;
+}
+
+#sec3 {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/ceRBwE32vrQbUL6UJrQAeS-1200-80.jpg);
+   position: relative;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    cursor: pointer;
+}
+
+#third1{
+    color:  white;
+    position: absolute;
+    top: 58vh;
+    left: 10vh;
+    font-size: 45px;
+    font: bold;
+    
+}
+
+#third2{
+    color:  white;
+    position: absolute;
+    top: 67vh;
+    left: 10vh;
+    font-size: large;
+}
+
+#butt3{
+    color: white;
+    background-color: transparent;
+    height: 8vh;
+    width: 25vh;
+    border: solid white;
+    position: absolute;
+    top: 80vh;
+    left: 10vh;
+    cursor: pointer;
+  
+}
+
+#sec4 {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://earthsky.org/upl/2020/11/International-iss-earth-2020-photo.jpg);
+    position: relative;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+
+}
+
+#fourth1{
+    color:  white;
+    position: absolute;
+    top: 42vh;
+    left: 10vh;
+    
+    font-size: 45px;
+    font: bold;
+}
+
+#fourth2{
+    color:  white;
+    position: absolute;
+    top: 58vh;
+    left: 10vh;
+    font-size: large;
+}
+
+#butt4{
+    color: white;
+    background-color: transparent;
+    height: 8vh;
+    width: 25vh;
+    border: solid white;
+    position: absolute;
+    top: 75vh;
+    left: 10vh;
+    cursor: pointer;
+   
+}
+#sec5 {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://www.extremetech.com/wp-content/uploads/2020/03/starship-prototype.jpg);
+position: relative;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+}
+
+#fifth1{
+    color:  white;
+    position: absolute;
+    top: 15vh;
+    left: 10vh;
+    font-size: 45px;
+    font: bold;
+}
+
+#fifth2{
+    color:  white;
+    position: absolute;
+    top: 25vh;
+    left: 10vh;
+    font-size: large;
+    
+}
+
+#butt5{
+    color: white;
+    background-color: transparent;
+    height: 8vh;
+    width: 25vh;
+    border: solid white;
+    position: absolute;
+    bottom: 50vh;
+    left: 10vh;
+    cursor: pointer;
+    
+
+}
+
+#sec6 {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://www.teslarati.com/wp-content/uploads/2020/04/Lunar-Starship-Artemis-SpaceX-render-1-crop-c.jpg);
+   position: relative;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    justify-content: flex-end;
+    
+    
+}
+
+#sixth1{
+    color:  white;
+    position: absolute;
+    right: 80vh;
+    top: 25vh;
+    font-size: large;
+}
+
+#sixth2{
+    color:  white;
+    position: absolute;
+    right: 16vh;
+    top: 30vh;
+    font-size: 45px;
+    font: bold;
+}
+
+#sixth3{
+    color:  white;
+    position: absolute;
+    font-size: large;
+    top: 47vh;
+    right: 8vh;;
+}
+
+#butt6 {
+    cursor: pointer;
+    color: white;
+    border-color: white;
+    background-color: transparent;
+    height: 8vh;
+    width: 25vh;
+    position: absolute;
+    top: 65vh;
+    right: 65vh;
+}
+
+#footer {
+    box-sizing: border-box;
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vh 55vh 0vh 55vh;
+}
+#copyright{
+    color:gray;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.bottbutt{
+    color: white;
+    font-size: 11px;
+    font: bold;
+}
